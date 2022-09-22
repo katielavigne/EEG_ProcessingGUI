@@ -1,0 +1,150 @@
+bin 1
+YY1
+.{111}
+
+bin 2
+YY2
+.{112}
+
+bin 3
+YY3
+.{113}
+
+bin 4
+YN1
+.{121}
+
+bin 5
+YN2
+.{122}
+
+bin 6
+YN3
+.{123}
+
+bin 7
+NN1
+.{221}
+
+bin 8
+NN2
+.{222}
+
+bin 9
+NN3
+.{223}
+
+bin 10
+NY1
+.{211}
+
+bin 11
+NY2
+.{212}
+
+bin 12
+NY3
+.{213}
+
+bin 13
+correct
+.{1}
+
+bin 14
+incorrect
+.{11}
+
+bin 15
+Response
+.{1;11}
+
+bin 16
+YY1 correct
+{111}.{1}
+
+bin 17
+YY1 incorrect
+{111}.{11}
+
+bin 18
+YY2 correct
+{112}.{1}
+
+bin 19
+YY2 incorrect
+{112}.{11}
+
+bin 20
+YN1 correct
+{121}.{1}
+
+bin 21
+YN1 incorrect
+{121}.{11}
+
+bin 22
+YN2 correct
+{122}.{1}
+
+bin 23
+YN2 incorrect
+{122}.{11}
+
+bin 24
+NN1 correct
+{221}.{1}
+
+bin 25
+NN1 incorrect
+{221}.{11}
+
+bin 26
+NN2 correct
+{222}.{1}
+
+bin 27
+NN2 incorrect
+{222}.{11}
+
+bin 28
+NY1 correct
+{211}.{1}
+
+bin 29
+NY1 incorrect
+{211}.{11}
+
+bin 30
+NY2 correct
+{212}.{1}
+
+bin 31
+NY2 incorrect
+{212}.{11}
+
+bin 32
+confirm
+.{111; 112; 221; 222}
+ 
+bin 33
+disconfirm
+.{121; 122; 211; 212}
+
+bin 34
+confirm correct
+{111; 112; 221; 222}.{1}
+ 
+bin 35
+confirm incorrect
+{111; 112; 221; 222}.{11}
+ 
+bin 36
+disconfirm correct
+{121; 122; 211; 212}.{1}
+ 
+bin 37
+disconfirm incorrect
+{121; 122; 211; 212}.{11}
+
+ 
+

@@ -1,0 +1,39 @@
+bin 1
+YY
+.{101}
+
+bin 2
+NN
+.{201}
+
+bin 3
+NY
+.{301}
+
+bin 4
+YN
+.{401}
+
+bin 5
+confirm
+.{101;201}
+
+bin 6
+disconfirm
+.{301;401}
+ 
+bin7
+confirm correct
+.{101;201}{t<200-4000>1}
+
+bin8
+confirm incorrect
+.{101;201}{t<200-4000>11}
+
+bin9
+disconfirm correct
+.{301;401}{t<200-4000>1}
+
+bin10
+disconfirm incorrect
+.{301;401}{t<200-4000>11}

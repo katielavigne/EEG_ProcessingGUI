@@ -1,0 +1,43 @@
+bin 1
+Encode4
+.{4}
+
+bin 2
+probe4
+.{40;41}
+
+bin 3
+Encode6
+.{6}
+
+bin 4
+probe6
+.{60;61}
+
+bin 5
+correct
+.{1}
+
+bin 6
+incorrect
+.{11}
+
+bin 7
+probe4 correct
+{40;41}.{1}
+
+bin 8
+probe4 incorrect
+{40;41}.{11}
+
+bin 9
+probe6 correct
+{60;61}.{1}
+
+bin 10
+probe6 incorrect
+{60;61}.{11}
+
+bin 11
+response
+.{1;11}
